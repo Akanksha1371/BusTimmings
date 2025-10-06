@@ -77,6 +77,36 @@ BUS_SCHEDULES = [
         "stops": 3,
         "travel_time": "8h 45m"
     },
+    {
+        "bus_name": "Sri Durgamba Travels (Non-AC Sleeper)",
+        "plate_number": "KA 19 AB 5678",
+        "from_location": "Moodbidri",
+        "to_location": "Shivamogga",
+        "departure_time": "21:00",
+        "reach_time": "04:30 (+1 day)",
+        "stops": 5,
+        "travel_time": "7h 30m"
+    },
+    {
+        "bus_name": "Sugama Tourist (Express)",
+        "plate_number": "KA 20 BC 1030",
+        "from_location": "Moodbidri",
+        "to_location": "Udupi",
+        "departure_time": "18:30",
+        "reach_time": "19:45",
+        "stops": 8,
+        "travel_time": "1h 15m"
+    },
+    {
+        "bus_name": "KSRTC (Airavat Club Class)",
+        "plate_number": "KA 01 ZZ 0042",
+        "from_location": "Moodbidri",
+        "to_location": "Bengaluru",
+        "departure_time": "22:45",
+        "reach_time": "07:30",
+        "stops": 3,
+        "travel_time": "8h 45m"
+    },
 ]
 
 # Get a list of all unique destination districts for the dropdown
@@ -285,3 +315,4 @@ if __name__ == '__main__':
     # Flask uses '0.0.0.0' and port 8080 or similar in deployment environments
     # For local running, we use the default host and port for development
     app.run(debug=True)
+
